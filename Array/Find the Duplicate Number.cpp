@@ -53,6 +53,7 @@ public:
         // return -1;
 
         //O(n)
+        /*Floyd’s cycle finding algorithm or Hare-Tortoise algorithm is a pointer algorithm that uses only two pointers, moving through the sequence at different speeds. This algorithm is used to find a loop in a linked list. It uses two pointers one moving twice as fast as the other one.*/
         int slow = nums[0];
         int fast = nums[0];
 
