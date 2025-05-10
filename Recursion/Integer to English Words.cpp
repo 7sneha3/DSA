@@ -48,3 +48,5 @@ vector<pair<int, string>> mp = {{1000000000, "Billion"},{1000000, "Million"},{10
         }
         return "";
     }
+//TC => O(log N to the base 10)
+//SC => O(log N to the base 10)
