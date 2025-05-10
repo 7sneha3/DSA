@@ -60,3 +60,6 @@ bool isMatchHelper(string&s, int si, string&p, int pi){
         int pi = 0;
         return isMatchHelper(s, si, p, pi);
     }
+
+//TC => O(2^N)
+//SC => O(N)
